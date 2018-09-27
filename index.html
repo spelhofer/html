@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style2.css">
     <title>Document</title>
 </head>
-
 <body>
-    <section id="main-block">
-        <div class="first">
+    <section class="cont">
+    <div class="list">
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        <li>six</li>
+        <li>seven</li>
+        <li>eigth</li>
+        <li>nine</li>
+        <li>ten</li>
+    </ul>
+    </div>
+    
+    <div class="input_form">
+        <form action="addserver.php" method="GET" class="fom">
+            <p><label for="fName">First Name</label>
+            <input type="text" id="fName" name="firstname" placeholder="Your name"></br>
 
-        </div>
-        <div class="second">
+        <label for="sName">Sure Name</label>
+        <input type="text" id="sName" name="surename" placeholder="Your Sure name"></br>
 
-        </div>
-        <div class="third">
-            <p id="text">Text</p>
-        </div>
-            <div class="flex-bottom">
-                <div>
+        <label for="mail">email</label>
+        <input type="email" id="mail" name="Email" placeholder="Your email"></br>
 
-                </div>
-                <div>
+        <label for="telnum">number</label>
+        <input type="number" id="number" name="telNum" placeholder="number"></br>
+        
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="Ukrainian">Ukrainian</option>
+            <option value="Russia">Russia</option>
+            <option value="Poland">Poland</option>
+        </select>
+        <input type="submit" value="отправить"></p>
 
-                </div>
-                <div>
-
-                </div>
-            </div>
+        </form>
+    </div>
     </section>
-    <script src="/js/main.js"></script>
 </body>
-
 </html>

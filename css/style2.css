@@ -1,0 +1,46 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display:table;
+}
+
+body {
+        display:table-cell;
+        vertical-align:middle;
+
+}
+.cont {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+.list {
+    width: 100%;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aquamarine;
+    background-color: crimson;
+    text-align: center;
+    
+}
+
+.input_form {
+    width: 100%;
+    display: table;
+    float: left;
+    position: relative;
+}
+
+.fom {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
