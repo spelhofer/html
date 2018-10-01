@@ -1,0 +1,96 @@
+ @font-face {
+    font-family: Acrom-bold; /* Имя шрифта */
+    src: url(../fonts/acrom800.otf); /* Путь к файлу со шрифтом */
+ }
+@font-face {
+    font-family: Acrom;
+    src: url(../fonts/acrom400.otf);
+}
+
+* {
+	margin: 0;
+
+}
+
+body {
+	font-family: Acrom;
+}
+.wrap {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	min-height: 450px;
+	background: url("../images/header_bg.png");
+	background-size: cover;
+}
+
+.top-line {
+	height: 85px;
+	background: rgba(3, 4, 5, 0.5);
+	padding: 40px 0;
+}
+
+.phone {
+	color: #fff;
+	font-size: 23px;
+	font-family: Acrom;
+	float: right;
+}
+
+.callback {
+	color: #fff;
+	font-family: Acrom;
+	font-size: 9px;
+	background: none;
+	border: 2px solid #018dc4;
+	border-radius: 10px;
+	padding: 5px 10px;
+	float: right;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+h1 {
+	font-size: 37px;
+	color: #fff;
+	font-family: Acrom-bold;
+}
+
+h2 {
+	color: #00a9ea;
+	font-size: 19px;
+}
+
+.main {
+	text-align: center;
+}
+
+.register {
+	color: #fff;
+	font-family: Acrom-bold;
+	font-size: 10px;
+	background: #ee6e22;
+	border-radius: 10px;
+	border: none;
+	padding: 15px 10px;
+	text-transform: uppercase;
+}
+
+.callback2 {
+	float: none;
+}
+
+.callback2 img {
+	width: 16px;
+}
+
+.callback span {
+	position: relative;
+	top: -4px;
+}
